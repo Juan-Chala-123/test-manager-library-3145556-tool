@@ -5,6 +5,14 @@
 
 Este repositorio guarda las **utilidades** de *Manager Library*: el sembrador de datos de demostración, que usa la API. **Empieza vacío a propósito**: se construye en el fork de cada aprendiz.
 
+## Ejecución
+
+El sembrador está escrito en PHP, usa exclusivamente HTTP y no conoce la base de datos.
+Configura `API_BASE_URL`, `SEEDER_USERNAME` y `SEEDER_PASSWORD` en el entorno local
+(no los guardes en Git).
+
+Con Compose se ejecuta mediante el perfil `tools` de `infra`.
+
 ## Instrucciones
 
 Cada aprendiz debe **crear el fork** de los seis repositorios del proyecto y **resolver el proyecto
